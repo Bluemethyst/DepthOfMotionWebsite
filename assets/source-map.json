@@ -1,0 +1,106 @@
+{
+  "alexandra-performance": {
+    "source": "About Alexandra/Photos/IMG_7901.JPG",
+    "file": "assets/images/alexandra-performance.jpg",
+    "width": 1333,
+    "height": 2000,
+    "alt": "Dancers performing on stage in a black-and-white photograph.",
+    "credit": ""
+  },
+  "alexandra-dance": {
+    "source": "About Alexandra/Photos/IMG_7902.JPG",
+    "file": "assets/images/alexandra-dance.jpg",
+    "width": 810,
+    "height": 540,
+    "alt": "Alexandra leaping with her arms extended on a tree-lined street.",
+    "credit": ""
+  },
+  "alexandra-portrait": {
+    "source": "About Alexandra/Photos/IMG_7909.JPG",
+    "file": "assets/images/alexandra-portrait.jpg",
+    "width": 1080,
+    "height": 1080,
+    "alt": "Alexandra sitting beside still water in a natural setting.",
+    "credit": ""
+  },
+  "childrens-dance": {
+    "source": "Childrens dance/Class photos/fuu-j-r2nJPbEYuSQ-unsplash.jpg",
+    "file": "assets/images/childrens-dance.jpg",
+    "width": 2000,
+    "height": 1807,
+    "alt": "A young child reaching outward in the sunlight beside the sea.",
+    "credit": "Fuu J"
+  },
+  "ballet-ensemble": {
+    "source": "Childrens dance/Class photos/hulki-okan-tabak-E9FpIlGZXmQ-unsplash.jpg",
+    "file": "assets/images/ballet-ensemble.jpg",
+    "width": 2000,
+    "height": 1333,
+    "alt": "Dancers in blue costumes photographed in motion on stage.",
+    "credit": "Hulki Okan Tabak"
+  },
+  "contact-movement": {
+    "source": "Contact/milo-weiler-G1CoG40MV8Q-unsplash.jpg",
+    "file": "assets/images/contact-movement.jpg",
+    "width": 1333,
+    "height": 2000,
+    "alt": "An abstract photograph of a dancer moving with flowing fabric.",
+    "credit": "Milo Weiler"
+  },
+  "adult-dance": {
+    "source": "Home/Home images/ahmad-odeh-JhqhGfX_Wd8-unsplash.jpg",
+    "file": "assets/images/adult-dance.jpg",
+    "width": 2000,
+    "height": 1333,
+    "alt": "A dancer turning on a dark stage, with fabric tracing the movement.",
+    "credit": "Ahmad Odeh"
+  },
+  "ocean-motion": {
+    "source": "Home/Home images/dave-hoefler-qxnGyJFtCMs-unsplash.jpg",
+    "file": "assets/images/ocean-motion.jpg",
+    "width": 1429,
+    "height": 2000,
+    "alt": "Soft streaks of light and colour across moving ocean water.",
+    "credit": "Dave Hoefler"
+  },
+  "ocean-light": {
+    "source": "Home/Home images/jordan-steranka-VmEsydI5oEo-unsplash.jpg",
+    "file": "assets/images/ocean-light.jpg",
+    "width": 2000,
+    "height": 1333,
+    "alt": "Golden sunlight reflecting across ripples of blue water.",
+    "credit": "Jordan Steranka"
+  },
+  "ocean-depth": {
+    "source": "Home/Home images/yoo-soosang-cJJscpsiZ8E-unsplash.jpg",
+    "file": "assets/images/ocean-depth.jpg",
+    "width": 2000,
+    "height": 1335,
+    "alt": "Golden lines of light reflected in deep blue water.",
+    "credit": "Yoo Soosang"
+  },
+  "womens-stillness": {
+    "source": "Womens intuitive movement/caroline-veronez-v_XGfp6SnA0-unsplash.jpg",
+    "file": "assets/images/womens-stillness.jpg",
+    "width": 1500,
+    "height": 2000,
+    "alt": "A woman in silhouette beneath an orange evening sky.",
+    "credit": "Caroline Veronez"
+  },
+  "womens-movement": {
+    "source": "Womens intuitive movement/ethan-hu-QRAV42GEtHo-unsplash.jpg",
+    "file": "assets/images/womens-movement.jpg",
+    "width": 1333,
+    "height": 2000,
+    "alt": "A woman raising her arms toward the sky beside the sea at sunset.",
+    "credit": "Ethan Hu"
+  },
+  "womens-nature": {
+    "source": "Womens intuitive movement/sonia-dauer-SBZ0bK2gkAs-unsplash.jpg",
+    "file": "assets/images/womens-nature.jpg",
+    "width": 1201,
+    "height": 2000,
+    "alt": "A person resting in long green grass with their arms overhead.",
+    "credit": "Sonia Dauer"
+  }
+}
