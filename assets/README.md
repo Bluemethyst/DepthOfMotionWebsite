@@ -41,4 +41,10 @@ The flyer says Intermediate & Senior Ballet is for ages 9–15; the term-specifi
 
 ## Fonts
 
-Self-hosted Cormorant Garamond and EB Garamond remain in `fonts/`, together with their SIL Open Font Licences. `fonts/fonts.css` maps local files to their family, style and weight. There are no external font requests.
+Self-hosted Cormorant Garamond and EB Garamond remain in `fonts/`. The main “Depth of Motion” heading uses Cormorant Infant at weight 600, with italic lettering for “of Motion”, following the customer’s request for a slightly bolder, more artistic heading. All three font families include their SIL Open Font Licences. `fonts/fonts.css` maps local files to their family, style and weight. There are no external font requests.
+
+## Link flourishes and colour accents
+
+The small link arrows are decorative inline SVG spirals with directional tips. They are hidden from assistive technology; the existing link text supplies the accessible name. Downward and upward variants identify scrolling/download and back-to-top links. Their shared size and colours are controlled by `.spiral-arrow` in the stylesheet.
+
+Blood red (`#6B1E1E`) accents the home hero button, offering numbers and small details. Spiral links use blood red on light surfaces and gold on dark surfaces. Supplied photography and copy are unchanged.

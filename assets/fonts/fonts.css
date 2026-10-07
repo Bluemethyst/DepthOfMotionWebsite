@@ -1,4 +1,18 @@
 @font-face {
+  font-family: 'Cormorant Infant';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(./cormorant-infant-semibold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cormorant Infant';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(./cormorant-infant-semibold-italic.ttf) format('truetype');
+}
+@font-face {
   font-family: 'Cormorant Garamond';
   font-style: italic;
   font-weight: 400;
