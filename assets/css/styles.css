@@ -382,3 +382,33 @@ details p { font-size: 19px; padding: 14px 0 6px; }
   .home .hero-content { padding-block: 100px 130px; }
   .ocean-band img { height: 240px; }
 }
+
+/* Creative Work: supplied performance photographs and shoreline film. */
+.creative-lead-image { margin-bottom: 65px; }
+.creative-lead-image img { width: 100%; height: auto; }
+.creative-film { background: #082335; }
+.creative-film .section-head { align-items: center; }
+.creative-film h2 em, .creative-stage h2 em { color: #dbb76c; }
+.film-duration { font: 12px/1.6 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: #d2c7b8; }
+.creative-film-player video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; border: 1px solid rgba(201,162,75,.5); }
+.creative-film-player figcaption { font-family: var(--body); font-size: 18px; margin-top: 18px; max-width: 650px; }
+.creative-stage-grid { display: grid; grid-template-columns: 1.3fr .8fr; gap: 40px 7%; align-items: start; }
+.creative-stage-grid .stage-wide { grid-column: 1; }
+.creative-stage-grid .stage-portrait { grid-column: 2; grid-row: 1 / span 2; padding-top: 80px; }
+.creative-stage-grid .stage-small { grid-column: 1; width: 78%; margin-left: auto; }
+.creative-stage-grid img, .creative-outdoor-grid img, .creative-elemental-grid img { height: auto; width: 100%; }
+.creative-outdoors { background: var(--cream); color: var(--blue); }
+.creative-outdoors h2 em { color: var(--red); }
+.creative-outdoors figcaption { color: var(--slate); }
+.creative-outdoor-grid { display: grid; grid-template-columns: 1.3fr .75fr; gap: 8%; align-items: center; }
+.creative-elemental-grid { display: grid; grid-template-columns: 1fr .85fr; gap: 12%; align-items: start; margin-top: 70px; }
+.creative-elemental-grid figure:nth-child(2) { padding-top: 90px; }
+@media (max-width: 768px) {
+  .creative-lead-image { margin-bottom: 40px; }
+  .creative-stage-grid, .creative-outdoor-grid, .creative-elemental-grid { grid-template-columns: 1fr; gap: 35px; }
+  .creative-stage-grid .stage-wide, .creative-stage-grid .stage-portrait, .creative-stage-grid .stage-small { grid-column: auto; grid-row: auto; width: 100%; margin: 0; padding: 0; }
+  .creative-stage-grid .stage-portrait { max-width: 480px; margin-inline: auto; }
+  .creative-elemental-grid figure:nth-child(2) { padding-top: 0; }
+  .creative-film .section-head { align-items: flex-start; flex-direction: column; gap: 24px; }
+  .creative-elemental-grid { margin-top: 45px; }
+}

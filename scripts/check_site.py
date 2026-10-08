@@ -32,7 +32,7 @@ class Document(HTMLParser):
             errors.append(f'{self.path.name}: image missing alt')
         if attrs.get('aria-current') == 'page':
             self.active.append(attrs.get('href'))
-        for key in ('href', 'src'):
+        for key in ('href', 'src', 'poster'):
             if key in attrs:
                 self.refs.append(attrs[key])
 

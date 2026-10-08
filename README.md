@@ -26,9 +26,11 @@ The stable page filenames and section IDs can later be mapped to Pages CMS conte
 
 - The flyer specifies **ages 9–15** for Intermediate & Senior Ballet; the Term 4 enrolment form specifies **9–14** for Intermediate Ballet. The website currently uses the term-specific form’s range and displays a note beside the timetable.
 - The flyer’s “Choreographic Lab” and form’s “Choreographic Contemporary” labels are retained in their respective timetable and fees sections.
-- Both biography files have identical text. Relevant passages are reused on Home, Adult Dance, Women’s Movement and Creative Work because separate descriptions were not supplied. The complete biography appears on About. One joined-name spacing error was corrected; no new biography claims were added.
+- Both original biography files have identical text. The complete biography appears on About, with relevant excerpts on Home and Creative Work. Adult Dance and Women’s Movement now use the separate descriptions supplied in `Re__Files_`. Every paragraph from both updated Word documents is included.
+- The new flyer’s filename says contemporary, but its heading says adult ballet. The adult class details follow the printed flyer: Tuesday 5:40–7:00 pm, five-week block starting 7 October, $80 per block or $20 per session. The flyer does not give a year; none is inferred.
+- Women’s sessions follow the updated description: fortnightly in the rhythm of the waxing and waning moon, 1.5 hours, $20–30 per session, at Kōtinga Hall. No dates or weekly time are inferred.
 - The supplied flyer resolves the earlier email typo: general enquiries now use **connect@depthofmotion.nz**. Women’s movement retains **alive@depthofmotion.nz** from the original brief.
-- Exact term start/end dates, actual film files and further project descriptions were not supplied, so these are not invented or displayed. The empty logo folders are represented by a text wordmark.
+- Exact term start/end dates or a year for the adult block, actual film files and further project descriptions were not supplied, so these are not invented or displayed. The empty logo folders are represented by a text wordmark.
 
 ## GitHub Pages
 
@@ -55,3 +57,11 @@ The children’s website fee table shows term fees only. Its photography section
 Adult Dance and Women’s Movement have small mailing-list sections. Their links open a prefilled email request to `connect@depthofmotion.nz` and `alive@depthofmotion.nz` respectively. Visitors must send the email to request joining; the site does not automatically subscribe anyone or store their details. A mailing-list service can replace these links later if one is supplied.
 
 Instagram and Facebook links appear in every footer, using the exact customer-supplied profiles. Enquiries use phone/email links. There is no online booking, payment processing or password-protected gallery.
+
+## Creative Work video
+
+Creative Work includes a working native HTML video player and the complete compressed film in `assets/video/creative-movement.mp4` (37.8 MiB). The original 921.2 MiB file remains outside the repository. The player loads the poster first, starts only when the visitor presses play and supports mobile playback and fullscreen.
+
+For the live site, an unlisted YouTube upload is recommended for streaming and quality selection. Upload the original, allow embedding, then replace the video element with a responsive iframe using `https://www.youtube-nocookie.com/embed/VIDEO_ID`, a descriptive title and fullscreen permission. Use the actual video ID; do not publish a placeholder. An unlisted video is accessible to anyone with the link. A custom player controls the interface but still needs a media host. The current compressed MP4 can be hosted as a static GitHub Pages asset; the full original exceeds GitHub’s 100 MiB individual Git file limit.
+
+The local preview server supports MP4 byte ranges so visitors can seek through the film during preview. Browser checks verify that the video is not requested before play, then plays and seeks at both desktop and mobile widths.

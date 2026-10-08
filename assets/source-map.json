@@ -102,5 +102,69 @@
     "height": 2000,
     "alt": "A person resting in long green grass with their arms overhead.",
     "credit": "Sonia Dauer"
+  },
+  "adult-outdoor-dance": {
+    "source": "C:\\Users\\CalebScott\\Downloads\\Re__Files_\\F1493651-71B0-460B-BB84-1824650424BB.JPG",
+    "file": "assets/images/adult-outdoor-dance.jpg",
+    "width": 527,
+    "height": 680,
+    "alt": "A dancer lifting one leg beside other performers in an outdoor paved space.",
+    "credit": ""
+  },
+  "childrens-ballet-window": {
+    "source": "C:\\Users\\CalebScott\\Downloads\\Re__Files_\\IMG_7830.jpeg",
+    "file": "assets/images/childrens-ballet-window.jpg",
+    "width": 2000,
+    "height": 1500,
+    "alt": "Two young children in ballet clothes looking through a sunlit hall window.",
+    "credit": ""
+  },
+  "classical-ballet-stage": {
+    "source": "C:\\Users\\CalebScott\\Downloads\\Re__Files_\\IMG_7899.jpeg",
+    "file": "assets/images/classical-ballet-stage.jpg",
+    "width": 693,
+    "height": 418,
+    "alt": "A ballet ensemble performing in colourful costumes against a painted stage backdrop.",
+    "credit": ""
+  },
+  "contemporary-blue-stage": {
+    "source": "C:\\Users\\CalebScott\\Downloads\\Re__Files_\\IMG_7900.jpeg",
+    "file": "assets/images/contemporary-blue-stage.jpg",
+    "width": 1157,
+    "height": 771,
+    "alt": "Contemporary dancers reaching upward under blue stage lighting.",
+    "credit": ""
+  },
+  "contemporary-ensemble": {
+    "source": "C:\\Users\\CalebScott\\Downloads\\Re__Files_\\IMG_7903.jpeg",
+    "file": "assets/images/contemporary-ensemble.jpg",
+    "width": 2000,
+    "height": 1085,
+    "alt": "Four dancers extending their arms and legs across a dark stage in a black-and-white photograph.",
+    "credit": ""
+  },
+  "elemental-rock-movement": {
+    "source": "C:\\Users\\CalebScott\\Downloads\\Re__Files_\\IMG_7907.jpeg",
+    "file": "assets/images/elemental-rock-movement.jpg",
+    "width": 853,
+    "height": 853,
+    "alt": "A dancer with raised arms beside a textured rock wall.",
+    "credit": ""
+  },
+  "elemental-stone-movement": {
+    "source": "C:\\Users\\CalebScott\\Downloads\\Re__Files_\\IMG_7910.jpeg",
+    "file": "assets/images/elemental-stone-movement.jpg",
+    "width": 724,
+    "height": 905,
+    "alt": "A dancer reaching upward in a stone passage filled with natural light.",
+    "credit": ""
+  },
+  "creative-film-poster": {
+    "source": "C:/Users/CalebScott/Downloads/2026-09-22 11.44.58_1.mp4 (frame at 00:10)",
+    "file": "assets/images/creative-film-poster.jpg",
+    "width": 1600,
+    "height": 900,
+    "alt": "Four dancers walking through shallow water beside a sandy shoreline.",
+    "credit": ""
   }
 }
