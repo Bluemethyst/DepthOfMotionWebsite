@@ -50,4 +50,8 @@ node --check assets/js/main.js
 
 The checker verifies the six pages, links and anchors, image assets, navigation states and unique metadata. Browser QA checks responsive widths, loading, accessibility, menu behaviour, keyboard use, reduced motion and navigation without JavaScript. Local reports and screenshots are kept in the ignored `artifacts/` folder.
 
-Enquiries use phone/email links. The downloadable enrolment PDF is the original printable form; there is no online booking, data collection, payment processing or password-protected gallery.
+The children’s website fee table shows term fees only. Its photography section has been removed; the original photos remain available in the asset folder. The downloadable enrolment PDF remains the original supplied printable form.
+
+Adult Dance and Women’s Movement have small mailing-list sections. Their links open a prefilled email request to `connect@depthofmotion.nz` and `alive@depthofmotion.nz` respectively. Visitors must send the email to request joining; the site does not automatically subscribe anyone or store their details. A mailing-list service can replace these links later if one is supplied.
+
+Instagram and Facebook links appear in every footer, using the exact customer-supplied profiles. Enquiries use phone/email links. There is no online booking, payment processing or password-protected gallery.

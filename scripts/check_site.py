@@ -7,6 +7,8 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 EXPECTED = {'index.html', 'childrens-dance.html', 'adult-dance.html',
             'womens-movement.html', 'creative-work.html', 'about.html'}
+EXTERNAL_LINKS = {'https://www.instagram.com/elemental_dancer_',
+                  'https://www.facebook.com/ReAliTyDance5/'}
 errors = []
 
 
@@ -45,7 +47,7 @@ for name, doc in docs.items():
         errors.append(f'{name}: active header/footer links incorrect')
     for ref in doc.refs:
         parts = urlsplit(ref)
-        if parts.scheme in ('tel', 'mailto'):
+        if parts.scheme in ('tel', 'mailto') or ref in EXTERNAL_LINKS:
             continue
         if parts.scheme or parts.netloc or ref.startswith('/'):
             errors.append(f'{name}: non-relative website reference {ref}')

@@ -8,7 +8,7 @@ All website photographs now come from the user's `Website design` folder. No AI-
 | `images/alexandra-dance.jpg` | About Alexandra / Photos / IMG_7902.JPG | Home, About and creative work |
 | `images/alexandra-portrait.jpg` | About Alexandra / Photos / IMG_7909.JPG | Home and About |
 | `images/childrens-dance.jpg` | fuu-j-r2nJPbEYuSQ-unsplash.jpg | Children’s dance and Home |
-| `images/ballet-ensemble.jpg` | hulki-okan-tabak-E9FpIlGZXmQ-unsplash.jpg | Children’s photography section |
+| `images/ballet-ensemble.jpg` | hulki-okan-tabak-E9FpIlGZXmQ-unsplash.jpg | Retained for future use; the children’s photography section was removed |
 | `images/contact-movement.jpg` | milo-weiler-G1CoG40MV8Q-unsplash.jpg | Contact section |
 | `images/adult-dance.jpg` | ahmad-odeh-JhqhGfX_Wd8-unsplash.jpg | Adult dance and Home |
 | `images/ocean-motion.jpg` | dave-hoefler-qxnGyJFtCMs-unsplash.jpg | Home ocean section |
@@ -47,4 +47,6 @@ Self-hosted Cormorant Garamond and EB Garamond remain in `fonts/`. The main “D
 
 The small link arrows are decorative inline SVG spirals with directional tips. They are hidden from assistive technology; the existing link text supplies the accessible name. Downward and upward variants identify scrolling/download and back-to-top links. Their shared size and colours are controlled by `.spiral-arrow` in the stylesheet.
 
-Blood red (`#6B1E1E`) accents the home hero button, offering numbers and small details. Spiral links use blood red on light surfaces and gold on dark surfaces. Supplied photography and copy are unchanged.
+The home hero button uses a darker red (`#571818`), bolder 13px lettering and no border. Blood red (`#6B1E1E`) accents the offering numbers and small details. Adult Dance uses dusky pink and Women’s Movement uses blood red. Spiral links use blood red on light surfaces and gold on dark surfaces.
+
+The footer includes accessible Instagram and Facebook SVG icons linked to the profile URLs supplied by the customer. These are ordinary links, with no embedded feeds or tracking scripts.
