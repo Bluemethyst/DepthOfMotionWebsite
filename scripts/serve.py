@@ -83,7 +83,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     handler = partial(SiteHandler, directory=str(ROOT))
     server = ThreadingHTTPServer(('127.0.0.1', args.port), handler)
-    print(f'Preview: http://127.0.0.1:{args.port}/DepthOfMotionWebsite/', flush=True)
+    print(f'Preview: http://localhost:{args.port}/DepthOfMotionWebsite/', flush=True)
     print('Press Ctrl+C to stop.', flush=True)
     try:
         server.serve_forever()

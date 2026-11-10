@@ -10,7 +10,7 @@ Open `index.html` directly, or run this from the project folder:
 python scripts/serve.py
 ```
 
-Visit **http://127.0.0.1:4173/DepthOfMotionWebsite/**. This also tests repository-subdirectory paths. Press Ctrl+C to stop; use `--port 8080` if necessary.
+Visit **http://localhost:4173/DepthOfMotionWebsite/**. This also tests repository-subdirectory paths. Press Ctrl+C to stop; use `--port 8080` if necessary.
 
 ## Content and images
 
@@ -60,8 +60,10 @@ Instagram and Facebook links appear in every footer, using the exact customer-su
 
 ## Creative Work video
 
-Creative Work includes a working native HTML video player and the complete compressed film in `assets/video/creative-movement.mp4` (37.8 MiB). The original 921.2 MiB file remains outside the repository. The player loads the poster first, starts only when the visitor presses play and supports mobile playback and fullscreen.
+Creative Work embeds the customer-supplied YouTube film `https://www.youtube.com/watch?v=dOwCgA31fg4` in a responsive, lazy-loaded player using the privacy-enhanced `youtube-nocookie.com` domain. The iframe includes a descriptive title, fullscreen support and `strict-origin-when-cross-origin` referrer policy. The film starts muted when at least half the player enters view, and pauses when less than one fifth remains visible or the browser tab is hidden. Visitors can enable sound using YouTube’s controls. Manual pauses are respected, the film does not automatically loop after ending, and reduced-motion preferences retain manual playback. If autoplay is blocked or the API is unavailable, normal manual controls remain available. A direct YouTube link is provided below the film. Preview over HTTP using the local server rather than opening the file directly, so YouTube receives the required referrer.
 
-For the live site, an unlisted YouTube upload is recommended for streaming and quality selection. Upload the original, allow embedding, then replace the video element with a responsive iframe using `https://www.youtube-nocookie.com/embed/VIDEO_ID`, a descriptive title and fullscreen permission. Use the actual video ID; do not publish a placeholder. An unlisted video is accessible to anyone with the link. A custom player controls the interface but still needs a media host. The current compressed MP4 can be hosted as a static GitHub Pages asset; the full original exceeds GitHub’s 100 MiB individual Git file limit.
+The former 37.8 MiB compressed MP4 is preserved in ignored `artifacts/video-backup/creative-movement.mp4`, outside the site and delivery ZIP. The original 921.2 MiB source remains unchanged in Downloads. No YouTube account or upload settings were changed.
 
-The local preview server supports MP4 byte ranges so visitors can seek through the film during preview. Browser checks verify that the video is not requested before play, then plays and seeks at both desktop and mobile widths.
+The outdoor dance photograph is used only in Creative Work. Adult Dance and its homepage card use the previous Ahmad Odeh image until a replacement is supplied.
+
+Verification: the updated pages pass responsive, image, link and accessibility checks. YouTube’s public metadata confirms video `dOwCgA31fg4` as “beyond this earth” by “ali tylee”, with embedding enabled. Playback works with the local preview origin `http://localhost:4173`. The numeric origin `http://127.0.0.1:4173` makes YouTube report “This video is unavailable”, despite a valid referrer policy. Use the printed localhost URL for preview, rather than the numeric IP address or a file opened directly.

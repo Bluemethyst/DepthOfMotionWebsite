@@ -390,7 +390,7 @@ details p { font-size: 19px; padding: 14px 0 6px; }
 .creative-film .section-head { align-items: center; }
 .creative-film h2 em, .creative-stage h2 em { color: #dbb76c; }
 .film-duration { font: 12px/1.6 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: #d2c7b8; }
-.creative-film-player video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; border: 1px solid rgba(201,162,75,.5); }
+.creative-film-player iframe { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; border: 1px solid rgba(201,162,75,.5); }
 .creative-film-player figcaption { font-family: var(--body); font-size: 18px; margin-top: 18px; max-width: 650px; }
 .creative-stage-grid { display: grid; grid-template-columns: 1.3fr .8fr; gap: 40px 7%; align-items: start; }
 .creative-stage-grid .stage-wide { grid-column: 1; }

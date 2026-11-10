@@ -10,14 +10,14 @@ All website photographs now come from the customer-supplied `Website design` and
 | `images/childrens-dance.jpg` | fuu-j-r2nJPbEYuSQ-unsplash.jpg | Retained for future use |
 | `images/ballet-ensemble.jpg` | hulki-okan-tabak-E9FpIlGZXmQ-unsplash.jpg | Retained for future use; the children’s photography section was removed |
 | `images/contact-movement.jpg` | milo-weiler-G1CoG40MV8Q-unsplash.jpg | Contact section |
-| `images/adult-dance.jpg` | ahmad-odeh-JhqhGfX_Wd8-unsplash.jpg | Retained for future use |
+| `images/adult-dance.jpg` | ahmad-odeh-JhqhGfX_Wd8-unsplash.jpg | Adult Dance and Home |
 | `images/ocean-motion.jpg` | dave-hoefler-qxnGyJFtCMs-unsplash.jpg | Home ocean section |
 | `images/ocean-light.jpg` | jordan-steranka-VmEsydI5oEo-unsplash.jpg | About |
 | `images/ocean-depth.jpg` | yoo-soosang-cJJscpsiZ8E-unsplash.jpg | Home hero |
 | `images/womens-stillness.jpg` | caroline-veronez-v_XGfp6SnA0-unsplash.jpg | Retained for future use |
 | `images/womens-movement.jpg` | ethan-hu-QRAV42GEtHo-unsplash.jpg | Retained for future use |
 | `images/womens-nature.jpg` | sonia-dauer-SBZ0bK2gkAs-unsplash.jpg | Retained for future use |
-| `images/adult-outdoor-dance.jpg` | Re__Files_ / F1493651-71B0-460B-BB84-1824650424BB.JPG | Adult Dance, Home and Creative Work |
+| `images/adult-outdoor-dance.jpg` | Re__Files_ / F1493651-71B0-460B-BB84-1824650424BB.JPG | Creative Work only |
 | `images/childrens-ballet-window.jpg` | Re__Files_ / IMG_7830.jpeg | Children’s Dance and Home |
 | `images/classical-ballet-stage.jpg` | Re__Files_ / IMG_7899.jpeg | About and Creative Work |
 | `images/contemporary-blue-stage.jpg` | Re__Files_ / IMG_7900.jpeg | Creative Work |
@@ -64,6 +64,8 @@ The footer includes accessible Instagram and Facebook SVG icons linked to the pr
 
 Creative Work now uses eight supplied dance photographs in its lead image, stage, outdoor movement and creative practice sections. Existing biography paragraphs remain unchanged; no project names, performance dates or photographer credits have been invented. All photographer watermarks remain in the copied image files, and gallery photographs retain their full aspect ratios.
 
-`images/creative-film-poster.jpg` is an extracted frame at 00:10 from the supplied `C:/Users/CalebScott/Downloads/2026-09-22 11.44.58_1.mp4`. `video/creative-movement.mp4` is a complete web copy of that 2-minute-21-second film. The original remains unchanged in Downloads. The web copy uses H.264 at 1280 × 720 / 25 fps, AAC stereo audio, CRF 22, a 2.5 Mbps video rate cap and MP4 faststart. Its size is 37.8 MiB, compared with 921.2 MiB for the original.
+The film is embedded from the customer-supplied YouTube video `dOwCgA31fg4`, using `https://www.youtube-nocookie.com/embed/dOwCgA31fg4`. The responsive iframe has a descriptive title, lazy loading, fullscreen permission and an origin referrer policy. The film starts muted when at least half the player enters view, and pauses when less than one fifth remains visible or the browser tab is hidden. Visitors can enable sound using YouTube’s controls. Manual pauses are respected, the film does not automatically loop after ending, and reduced-motion preferences retain manual playback. If autoplay is blocked or the API is unavailable, normal manual controls remain available. A direct “Watch on YouTube” link remains available below the player.
 
-The player uses native browser controls with `playsinline`, a local poster and `preload="none"`. It does not autoplay or preload the large original. The concise visual description beneath the film is based on the supplied footage. No film title, subtitle file or production credits were supplied, so none has been invented.
+The former compressed MP4 has been moved to the ignored `artifacts/video-backup/` folder and is excluded from the deployable site and ZIP. The original file in Downloads remains unchanged. `images/creative-film-poster.jpg` remains available as a still extracted at 00:10 from the original film; it is no longer used by the YouTube player.
+
+The outdoor dance photograph `adult-outdoor-dance.jpg` appears only in Creative Work. Adult Dance and its homepage card use the earlier Ahmad Odeh photograph, with photographer credits restored.

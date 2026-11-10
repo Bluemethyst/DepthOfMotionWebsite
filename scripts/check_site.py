@@ -8,7 +8,9 @@ ROOT = Path(__file__).resolve().parents[1]
 EXPECTED = {'index.html', 'childrens-dance.html', 'adult-dance.html',
             'womens-movement.html', 'creative-work.html', 'about.html'}
 EXTERNAL_LINKS = {'https://www.instagram.com/elemental_dancer_',
-                  'https://www.facebook.com/ReAliTyDance5/'}
+                  'https://www.facebook.com/ReAliTyDance5/',
+                  'https://www.youtube.com/watch?v=dOwCgA31fg4',
+                  'https://www.youtube-nocookie.com/embed/dOwCgA31fg4?enablejsapi=1&playsinline=1'}
 errors = []
 
 
